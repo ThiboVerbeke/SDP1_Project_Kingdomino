@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="400.0" prefWidth="600.0" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="imgAchtergrond" fitHeight="406.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="false" />
+      <Label fx:id="lblMaakKeuzeTitel" alignment="CENTER" layoutY="93.0" prefHeight="74.0" prefWidth="600.0" text="Maak een keuze" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button id="btnRegistreren" fx:id="btnRegistreren" layoutX="73.0" layoutY="214.0" mnemonicParsing="false" onAction="#registreren" prefHeight="35.0" prefWidth="88.0" text="Registreren" />
+      <Button id="btnSpelStarten" fx:id="btnStarten" layoutX="256.0" layoutY="214.0" mnemonicParsing="false" onAction="#starten" prefHeight="35.0" prefWidth="88.0" text="Spel starten" />
+      <Button id="btnAfsluiten" fx:id="btnAfsluiten" layoutX="426.0" layoutY="214.0" mnemonicParsing="false" onAction="#afsluiten" prefHeight="35.0" prefWidth="79.0" text="Afsluiten" />
+      <Button id="btnTerug" fx:id="btnTerug" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#terug" prefHeight="35.0" prefWidth="79.0" text="Terug" />
+   </children>
+</fx:root>

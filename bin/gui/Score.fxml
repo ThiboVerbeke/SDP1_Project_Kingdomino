@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="297.0" prefWidth="549.0" type="Pane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="imgAchtergrond" fitHeight="311.0" fitWidth="557.0" layoutX="-4.0" layoutY="-7.0">
+         <image>
+            <Image url="@../../../../../Downloads/Nieuw%20project.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblScorebord" alignment="CENTER" layoutX="180.0" layoutY="6.0" prefHeight="30.0" prefWidth="206.0" text="Scorebord" textFill="WHITE">
+         <font>
+            <Font name="Dubai Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNaam1" alignment="CENTER" layoutX="209.0" layoutY="90.0" prefHeight="30.0" prefWidth="146.0" text="Naam" textFill="WHITE">
+         <font>
+            <Font name="Dubai Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNaam2" alignment="CENTER" layoutX="110.0" layoutY="114.0" prefHeight="30.0" prefWidth="146.0" text="Naam" textFill="WHITE">
+         <font>
+            <Font name="Dubai Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNaam3" alignment="CENTER" layoutX="307.0" layoutY="142.0" prefHeight="30.0" prefWidth="146.0" text="Naam" textFill="WHITE">
+         <font>
+            <Font name="Dubai Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="score2" alignment="CENTER" layoutX="132.0" layoutY="208.0" prefHeight="30.0" prefWidth="101.0" text="Score" textFill="WHITE">
+         <font>
+            <Font name="Dubai Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="score1" alignment="CENTER" layoutX="233.0" layoutY="194.0" prefHeight="30.0" prefWidth="101.0" text="Score" textFill="WHITE">
+         <font>
+            <Font name="Dubai Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="score3" alignment="CENTER" layoutX="333.0" layoutY="241.0" prefHeight="30.0" prefWidth="99.0" text="Score" textFill="WHITE">
+         <font>
+            <Font name="Dubai Regular" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</fx:root>
