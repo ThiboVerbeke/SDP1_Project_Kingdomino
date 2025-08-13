@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="Pane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="lblKiesSpelerEnKleurTitel" layoutX="37.0" layoutY="86.0" prefHeight="114.0" prefWidth="520.0" text="Kies speler en kleur voor speler">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSpelerID" layoutX="523.0" layoutY="131.0" prefHeight="37.0" prefWidth="57.0">
+         <font>
+            <Font size="29.0" />
+         </font></Label>
+     <Button fx:id="btnVolgende" layoutX="420.0" layoutY="267.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="103.0" text="Volgende" onAction="#btnVolgende" />
+
+      <ChoiceBox fx:id="choiceBoxSpelerKiezen" layoutX="37.0" layoutY="273.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="choiceboxKleurKiezen" layoutX="225.0" layoutY="273.0" prefWidth="150.0" />
+      <Label fx:id="lblSpeler" alignment="CENTER" contentDisplay="CENTER" layoutX="70.0" layoutY="239.0" prefHeight="17.0" prefWidth="84.0" text="Speler" />
+      <Label fx:id="lblKleur" layoutX="286.0" layoutY="239.0" text="Kleur" />
+      <Label layoutX="37.0" layoutY="326.0" prefHeight="37.0" prefWidth="401.0" />
+        <Button id="btnTerug" fx:id="btnTerug" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#terug" prefHeight="35.0" prefWidth="79.0" text="Terug" />
+   </children>
+</fx:root>

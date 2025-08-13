@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="Pane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="lblRegistreren" alignment="CENTER" layoutX="1.0" layoutY="38.0" prefHeight="70.0" prefWidth="600.0" text="Registreren">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNaam" layoutX="96.0" layoutY="160.0" text="Gebruikersnaam:" wrapText="true" />
+      <TextField fx:id="txtfGebruikersnaam" layoutX="96.0" layoutY="188.0" />
+      <TextField fx:id="txtfGeboortejaar" layoutX="346.0" layoutY="188.0" />
+      <Label fx:id="lblGeboortejaar" layoutX="345.0" layoutY="160.0" prefHeight="17.0" prefWidth="75.0" text="Geboortejaar:" wrapText="true" />
+       <Button id="btnTerug" fx:id="btnTerug" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#terug" prefHeight="35.0" prefWidth="79.0" text="Terug" />
+      <Button fx:id="btnRegistreer" alignment="CENTER" contentDisplay="CENTER" layoutX="256.0" layoutY="280.0" mnemonicParsing="false" onAction="#Registreer" prefHeight="39.0" prefWidth="89.0" text="Registreer">
+          
+           <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</fx:root>
